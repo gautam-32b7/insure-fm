@@ -39,6 +39,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 3.6rem 10.8rem;
+
+  position: relative;
 }
 
 .primary-links {
@@ -69,4 +71,15 @@ header {
 .cta:hover {
   color: var(--color-light-gray) !important;
   background-color: var(--color-very-dark-violet);
+}
+
+.btn-mobile-nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav[name="icon-close"] {
+  display: none;
 }
