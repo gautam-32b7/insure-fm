@@ -83,3 +83,88 @@ header {
 .icon-mobile-nav[name="icon-close"] {
   display: none;
 }
+
+/* HERO SECTION */
+.hero-box {
+  margin-bottom: 9.6rem;
+  position: relative;
+}
+
+.hero {
+  color: #fff;
+  background-color: var(--color-dark-violet);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10.8rem;
+}
+
+.hero-image {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-text {
+  width: 54rem;
+  /* border: 1px solid; */
+}
+
+.hero-text h1 {
+  font-size: 7.2rem;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  padding: 7.2rem 0 3.6rem 0;
+
+  position: relative;
+}
+
+.hero-text h1::before {
+  content: "";
+  width: 16rem;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-text p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+
+.hero-text a {
+  display: inline-block;
+  color: var(--color-light-gray);
+  font-size: 1.6rem;
+  padding: 1.2rem 3.6rem;
+  border: 1px solid var(--color-light-gray);
+  transition: all 0.3s ease;
+}
+
+.hero-text a:hover {
+  color: var(--color-very-dark-violet);
+  background-color: var(--color-light-gray);
+}
+
+.hero-image {
+  position: absolute;
+  top: 14rem;
+  right: 20rem;
+}
+
+.pattern-intro-left {
+  position: absolute;
+  left: 0rem;
+  bottom: -50%;
+}
+
+.pattern-intro-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
